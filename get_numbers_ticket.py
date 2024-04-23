@@ -2,8 +2,7 @@ import random
 def get_numbers_ticket(min_num, max_num, quantity):
     
     if quantity > (max_num - min_num + 1):
-        raise
-    ValueError()
+        raise ValueError()
     numbers = set()
     while len(numbers) < quantity:
 
